@@ -12,7 +12,6 @@
 		8AE954B828C60FC30033A4F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE954B728C60FC30033A4F7 /* ViewController.swift */; };
 		8AE954BB28C60FC30033A4F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE954B928C60FC30033A4F7 /* Main.storyboard */; };
 		8AE954BD28C60FC70033A4F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE954BC28C60FC70033A4F7 /* Assets.xcassets */; };
-		8AE954C028C60FC70033A4F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE954BE28C60FC70033A4F7 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +21,6 @@
 		8AE954B728C60FC30033A4F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8AE954BA28C60FC30033A4F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AE954BC28C60FC70033A4F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8AE954BF28C60FC70033A4F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AE954C128C60FC70033A4F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,7 +59,6 @@
 				8AE954B728C60FC30033A4F7 /* ViewController.swift */,
 				8AE954B928C60FC30033A4F7 /* Main.storyboard */,
 				8AE954BC28C60FC70033A4F7 /* Assets.xcassets */,
-				8AE954BE28C60FC70033A4F7 /* LaunchScreen.storyboard */,
 				8AE954C128C60FC70033A4F7 /* Info.plist */,
 			);
 			path = IChat;
@@ -125,7 +122,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AE954C028C60FC70033A4F7 /* LaunchScreen.storyboard in Resources */,
 				8AE954BD28C60FC70033A4F7 /* Assets.xcassets in Resources */,
 				8AE954BB28C60FC30033A4F7 /* Main.storyboard in Resources */,
 			);
@@ -153,14 +149,6 @@
 				8AE954BA28C60FC30033A4F7 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8AE954BE28C60FC70033A4F7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8AE954BF28C60FC70033A4F7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -292,7 +280,6 @@
 				INFOPLIST_FILE = IChat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +307,6 @@
 				INFOPLIST_FILE = IChat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
